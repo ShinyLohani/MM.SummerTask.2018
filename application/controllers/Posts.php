@@ -29,5 +29,21 @@
 			redirect('posts');
 		}
 	}
-}
+
+		public function view($slug = NULL){
+			$data['post'] = $this->post_model->get_posts($slug);
+
+			if (empty($data['posts'])) {
+				show_404();
+			}
+			$data['title'] = $data['post']['title'];
+
+			$this->load->view('projects/header');
+			$this->load->view('posts/view',$data);
+		}
+
+
+		}
+	
+
 ?>

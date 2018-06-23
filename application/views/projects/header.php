@@ -68,7 +68,7 @@
 				</div>
 			</div>
 		</div>
-		</div><hr>
+		</div>
 
 	<div class="container">
 	<div class="row">
@@ -85,7 +85,7 @@
       						<li><a href="Article.html"><b>About</b></a></li>
       						<li><a href="Article.html"><b>Forum</b></a></li>
       						<li><a href="Article.html"><b>Ask a question</b></a></li>
-      						<li> <a href="http://localhost/practice/index.php/admin/admin"><b>Login</b></a></li>
+      						<li> <a href="http://localhost/myproject/index.php/admin/admin"><b>Login</b></a></li>
       						<li><a href="Article.html"><span class="glyphicon glyphicon-log-in"></span><b>Sign Up</b></a></li>
       						<li><a href="Article.html"><span class="glyphicon glyphicon-thumbs-up"></span><b> Like</b></a></li>
       						<li><form class="form-inline" action="http://localhost/myproject/index.php/My_project/search">
@@ -99,6 +99,6 @@
     					</ul>
     				</div>
   					</div>
-				</nav><hr>
+				</nav>
 			</div>
 		</div>
